@@ -1,2 +1,2 @@
 # docker-log-service-elasticsearch
-test
+the Dockerfile is developing status,please not use.
