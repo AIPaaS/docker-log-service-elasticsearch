@@ -15,6 +15,8 @@ RUN rm -f elasticsearch-5.0.1.rpm
 RUN yum clean all
 RUN rm -f /var/log/yum.log
 
+# plugins install
+RUN /usr/share/elasticsearch/bin/elasticsearch-plugin  install x-pack
 
 # Copy configuration file  
 #COPY .yml /etc/filebeat/
